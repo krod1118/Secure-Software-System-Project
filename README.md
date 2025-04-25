@@ -1,5 +1,5 @@
-Collin Hatcher
-Kevin Rodriguez
+- Collin Hatcher @ZzCollinzZ
+- Kevin Rodriguez @krod1118
 
 # 🔍 Calibre Plugin Security Assessment
 
