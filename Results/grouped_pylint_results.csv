@@ -1,0 +1,203 @@
+Severity Level,Message,Count
+4,Undefined variable,3075
+4,No name,1099
+4,Instance of,385
+4,Unable to import,269
+4,Possibly using variable,27
+4,Value,16
+4,Access to member,9
+4,Module,9
+4,Class,5
+4,Using variable,5
+4,Attempting to unpack a non-sequence defined at line 177 of calibre.utils.ipc.simple_worker,3
+4,ref is not callable,3
+4,,2
+4,"Assigning result of a function call, where the function returns None",2
+4,Unexpected keyword argument,2
+4,cb is not callable,2
+4,An attribute defined in calibre.gui2.custom_column_widgets line 707 hides this method,1
+4,"Assigning result of a function call, where the function has no return",1
+4,Method,1
+4,No value for argument,1
+4,calibre_repo/src/calibre/customize/ui.py: Fatal error while checking,1
+4,calibre_repo/src/calibre/customize/zipplugin.py: Fatal error while checking,1
+4,calibre_repo/src/calibre/srv/ajax.py: Fatal error while checking,1
+4,calibre_repo/src/calibre/srv/books.py: Fatal error while checking,1
+4,calibre_repo/src/calibre/srv/cdb.py: Fatal error while checking,1
+4,calibre_repo/src/calibre/srv/convert.py: Fatal error while checking,1
+4,class already defined line 10,1
+4,function already defined line 1987,1
+4,function already defined line 531,1
+4,function already defined line 60,1
+4,function already defined line 841,1
+4,get_icons is not callable,1
+4,get_resources is not callable,1
+4,self.encoding is not callable,1
+4,self.file_event_hook is not callable,1
+3,Method,1099
+3,Attribute,909
+3,No exception type,426
+3,Unused argument,386
+3,Catching too general exception Exception,291
+3,Redefining built-in,197
+3,Redefining name,149
+3,Expression,139
+3,Unused variable,133
+3,Parameter,78
+3,Consider explicitly re-raising using,55
+3,Dangerous default value {} as argument,40
+3,Unnecessary pass statement,35
+3,Number of parameters was 5 in,34
+3,Reimport,33
+3,Using open without explicitly specifying an encoding,32
+3,Raising too general exception: Exception,30
+3,Statement seems to have no effect,28
+3,Using the global statement,28
+3,Dangerous default value [] as argument,18
+3,Variadics removed in overriding,17
+3,The u prefix for strings is no longer necessary in Python >=3.0,14
+3,Signature differs from overridden,13
+3,Number of parameters was 1 in,12
+3,Use of exec,11
+3,Access to a protected member _long_opts of a client class,10
+3,String statement has no effect,9
+3,Using a conditional statement with a constant value,9
+3,__init__ method from base class,9
+3,Use of eval,8
+3,Using possibly undefined loop variable,8
+3,Access to a protected member _data of a client class,7
+3,Access to a protected member _debug of a client class,6
+3,Possibly unused variable,5
+3,Using global for,5
+3,Access to a protected member _field_for of a client class,4
+3,Access to a protected member _help of a client class,4
+3,Access to a protected member _short_opts of a client class,4
+3,Number of parameters was 2 in,4
+3,Number of parameters was 4 in,4
+3,__init__ method from a non direct base class,4
+3,Access to a protected member _gettempdir of a client class,3
+3,Access to a protected member _main_prefix of a client class,3
+3,Catching too general exception BaseException,3
+3,Cell variable fragments defined in loop,3
+3,Dangerous default value SEARCH_BASE_QUERY,3
+3,Lambda may not be necessary,3
+3,Number of parameters was 3 in,3
+3,Number of parameters was 6 in,3
+3,,2
+3,Access to a protected member _card_a_prefix of a client class,2
+3,Access to a protected member _card_b_prefix of a client class,2
+3,Access to a protected member _create_book_entry of a client class,2
+3,Access to a protected member _proxy_metadata of a client class,2
+3,Access to a protected member _reject of a client class,2
+3,Access to a protected member _remove_temp_dir of a client class,2
+3,Access to a protected member _save_copy of a client class,2
+3,Access to a protected member _stored_page_margins of a client class,2
+3,Access to a protected member _update_fts_indexing_numbers of a client class,2
+3,Access to a protected member _view_calibre_books of a client class,2
+3,Assigning the same variable,2
+3,Following,2
+3,Unreachable code,2
+3,Access to a protected member _clean_identifier of a client class,1
+3,Access to a protected member _config of a client class,1
+3,Access to a protected member _do_add_format of a client class,1
+3,Access to a protected member _extract_member of a client class,1
+3,Access to a protected member _fields_ of a client class,1
+3,Access to a protected member _final_base_font_size of a client class,1
+3,Access to a protected member _format_abspath of a client class,1
+3,Access to a protected member _get_next_series_num_for of a client class,1
+3,Access to a protected member _json_encode of a client class,1
+3,Access to a protected member _model of a client class,1
+3,Access to a protected member _new_book of a client class,1
+3,Access to a protected member _render_composite_with_cache of a client class,1
+3,Access to a protected member _search of a client class,1
+3,Access to a protected member _send_byte_string of a client class,1
+3,Access to a protected member _set_metadata of a client class,1
+3,Access to a protected member _sslobj of a client class,1
+3,Access to a protected member _sync_action_triggered of a client class,1
+3,Access to a protected member _update_path of a client class,1
+3,Access to a protected member _uuid_map of a client class,1
+3,Access to a protected member _view_file of a client class,1
+3,Cell variable h defined in loop,1
+3,Cell variable proxy_metadata defined in loop,1
+3,Cell variable serialize defined in loop,1
+3,"Else clause on loop without a break statement, remove the else and de-indent all the code inside it",1
+3,"Possible unbalanced tuple unpacking with sequence defined at line 92 of calibre.gui2.main_window: left side has 2 labels, right side has 0 values",1
+3,Redundant use of assertTrue with constant value False,1
+3,TODO : intelligent image rotation,1
+3,TODO: Handle building extensions with multiple SIP files.,1
+3,Unused QWebEnginePage imported from qt.webengine,1
+3,Unused font_scanner imported from calibre.utils.fonts.scanner,1
+3,Unused import html5lib.html5parser,1
+3,Unused parse imported from html5lib,1
+3,Unused private member `ChooseLibraryAction.__backup_status_dialog`,1
+3,Unused private member `Device.__save_win_eject_thread`,1
+2,Too many arguments,291
+2,Too many local variables,291
+2,Too many positional arguments,291
+2,Too many branches,232
+2,"Either all return statements in a function should return an expression, or none of them should.",217
+2,Too many statements,188
+2,Consider using,155
+2,Too few public methods,116
+2,Too many instance attributes,113
+2,Unnecessary,91
+2,Too many nested blocks,51
+2,Too many public methods,33
+2,Too many return statements,28
+2,Use,17
+2,Simplify chained comparison between the operands,14
+2,Redefining argument with the local name,8
+2,The if expression can be replaced with,7
+2,Too many boolean expressions in if statement,5
+2,Consider merging these comparisons with,4
+2,Boolean condition,3
+2,"Do not raise StopIteration in generator, use return statement instead",2
+2,The if statement can be replaced with,2
+2,Too many ancestors,1
+1,Missing function or method docstring,3974
+1,Line too long,2432
+1,Import outside toplevel,1552
+1,Missing class docstring,934
+1,Import,769
+1,Formatting a regular string which could be an f-string,362
+1,Missing module docstring,307
+1,Variable name,271
+1,Constant name,207
+1,Method name,195
+1,Function name,71
+1,Unnecessary parens after,64
+1,Attribute name,52
+1,Too many lines in module,31
+1,Argument name,28
+1,Class name,26
+1,Consider iterating with .items,15
+1,Imports from package calibre are not grouped,13
+1,Use isinstance,12
+1,Do not use `len,11
+1,Disallowed name,10
+1,Consider iterating the dictionary directly instead of calling .keys,9
+1,Class constant name,5
+1,Consider using enumerate instead of iterating with range and len,5
+1,,4
+1,Imports from package qt are not grouped,3
+1,Unnecessarily calls dunder method __setitem__. Set item via subscript.,3
+1,standard import,3
+1,Comparison,2
+1,Module name,2
+1,Use,2
+1,Class method get_all_options should have,1
+1,Class method get_open_popup_message should have,1
+1,Class method model_metadata should have,1
+1,Class method settings should have,1
+1,Class method tag_to_string should have,1
+1,Imports from package calibre_extensions are not grouped,1
+1,Imports from package multiprocessing are not grouped,1
+1,Unnecessarily calls dunder method __del__. Use del keyword.,1
+1,Unnecessarily calls dunder method __enter__. Invoke context manager directly.,1
+1,Unnecessarily calls dunder method __getattribute__. Access attribute directly or use getattr built-in function.,1
+1,Use a sequence type when iterating over values,1
+1,Use cover_url.split,1
+1,Use cu.rsplit,1
+1,Use price.rsplit,1
+1,Use str,1
+1,Use title.split,1

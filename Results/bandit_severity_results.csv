@@ -1,0 +1,512 @@
+File Name,Severity Level,Message
+setup/install.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+src/calibre/debug.py,3,"The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3."
+src/calibre/test_build.py,3,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+src/calibre/utils/matcher.py,3,"The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3."
+src/calibre/utils/exim.py,3,"The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3."
+src/calibre/srv/render_book.py,3,"The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3."
+bypy/init_env.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+setup/install.py,2,Chmod setting a permissive mask 0o755 on file (tdir).
+setup/install.py,2,Chmod setting a permissive mask 0o755 on file (NOT PARSED).
+setup/plugins_mirror.py,2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+setup/plugins_mirror.py,2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+setup/plugins_mirror.py,2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+setup/__init__.py,2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+setup/__init__.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+setup/__init__.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+setup/unix-ci.py,2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+src/calibre/linux.py,2,"Function call with shell=True parameter identified, possible security issue."
+src/calibre/debug.py,2,Use of exec detected.
+src/calibre/debug.py,2,Use of exec detected.
+src/calibre/test_build.py,2,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+src/calibre/library/catalogs/epub_mobi_builder.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/library/catalogs/epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/library/catalogs/epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/ebooks/metadata/sources/google.py,2,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+src/calibre/ebooks/metadata/sources/google.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/ebooks/metadata/sources/google.py,2,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+src/calibre/ebooks/metadata/sources/update.py,2,Use of exec detected.
+src/calibre/ebooks/metadata/sources/update.py,2,Use of exec detected.
+src/calibre/ebooks/metadata/sources/update.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/ebooks/conversion/plugins/txt_input.py,2,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+src/calibre/ebooks/conversion/plugins/epub_input.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/ebooks/conversion/plugins/epub_input.py,2,Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+src/calibre/ebooks/conversion/plugins/epub_output.py,2,Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+src/calibre/ebooks/oeb/polish/container.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/utils/exim.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/utils/exim.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/utils/config_base.py,2,Use of exec detected.
+src/calibre/utils/config_base.py,2,Use of exec detected.
+src/calibre/utils/ipc/worker.py,2,Use of exec detected.
+src/calibre/utils/ipc/simple_worker.py,2,Use of exec detected.
+src/calibre/srv/books.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/devices/smart_device_app/driver.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+src/calibre/customize/zipplugin.py,2,Use of exec detected.
+src/calibre/gui2/catalog/catalog_epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/gui2/catalog/catalog_epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/gui2/catalog/catalog_epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/gui2/store/loader.py,2,Use of exec detected.
+src/calibre/gui2/store/stores/manybooks_plugin.py,2,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+src/calibre/gui2/store/stores/manybooks_plugin.py,2,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+src/calibre/gui2/store/stores/litres_plugin.py,2,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+src/calibre/gui2/preferences/tweaks.py,2,Use of exec detected.
+src/calibre/gui2/preferences/tweaks.py,2,Use of exec detected.
+src/calibre/db/cache.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+imgsrc/generate.py,2,"Use of insecure MD2, MD4, MD5, or SHA1 hash function."
+bypy/init_env.py,1,Consider possible security implications associated with subprocess module.
+bypy/init_env.py,1,subprocess call - check for execution of untrusted input.
+bypy/linux/__main__.py,1,Consider possible security implications associated with subprocess module.
+bypy/linux/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/linux/__main__.py,1,Starting a process with a partial executable path
+bypy/linux/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/windows/__main__.py,1,Consider possible security implications associated with subprocess module.
+bypy/windows/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/windows/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/windows/__main__.py,1,Consider possible security implications associated with subprocess module.
+bypy/windows/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Consider possible security implications associated with subprocess module.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process without a shell.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,Consider possible security implications associated with subprocess module.
+setup/install.py,1,Starting a process with a partial executable path
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,Starting a process with a partial executable path
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,Starting a process with a partial executable path
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/build.py,1,Consider possible security implications associated with subprocess module.
+setup/build.py,1,subprocess call - check for execution of untrusted input.
+setup/build.py,1,subprocess call - check for execution of untrusted input.
+setup/plugins_mirror.py,1,Consider possible security implications associated with subprocess module.
+setup/plugins_mirror.py,1,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+setup/plugins_mirror.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+setup/plugins_mirror.py,1,"Try, Except, Pass detected."
+setup/plugins_mirror.py,1,Starting a process with a partial executable path
+setup/plugins_mirror.py,1,subprocess call - check for execution of untrusted input.
+setup/plugins_mirror.py,1,subprocess call - check for execution of untrusted input.
+setup/plugins_mirror.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+setup/plugins_mirror.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+setup/plugins_mirror.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+setup/build_environment.py,1,Consider possible security implications associated with subprocess module.
+setup/build_environment.py,1,subprocess call - check for execution of untrusted input.
+setup/build_environment.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Consider possible security implications associated with subprocess module.
+setup/upload.py,1,Consider possible security implications associated with check_call module.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Consider possible security implications associated with subprocess module.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Consider possible security implications associated with subprocess module.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/unix-ci.py,1,Consider possible security implications associated with subprocess module.
+setup/unix-ci.py,1,subprocess call - check for execution of untrusted input.
+setup/unix-ci.py,1,Starting a process with a partial executable path
+setup/unix-ci.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/ptempfile.py,1,"Try, Except, Pass detected."
+src/calibre/linux.py,1,Consider possible security implications associated with check_call module.
+src/calibre/linux.py,1,"Try, Except, Pass detected."
+src/calibre/linux.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/linux.py,1,Using E to parse untrusted XML data is known to be vulnerable to XML attacks. Replace E with the equivalent defusedxml package.
+src/calibre/linux.py,1,Using E to parse untrusted XML data is known to be vulnerable to XML attacks. Replace E with the equivalent defusedxml package.
+src/calibre/linux.py,1,Using tostring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace tostring with the equivalent defusedxml package.
+src/calibre/debug.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/debug.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/debug.py,1,"Try, Except, Pass detected."
+src/calibre/constants.py,1,"Try, Except, Pass detected."
+src/calibre/constants.py,1,"Try, Except, Pass detected."
+src/calibre/test_build.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/test_build.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/test_build.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/test_build.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/startup.py,1,"Try, Except, Pass detected."
+src/calibre/startup.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/sqlite.py,1,"Try, Except, Pass detected."
+src/calibre/library/sqlite.py,1,"Try, Except, Pass detected."
+src/calibre/library/sqlite.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/csv_xml.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/library/catalogs/csv_xml.py,1,Using E to parse untrusted XML data is known to be vulnerable to XML attacks. Replace E with the equivalent defusedxml package.
+src/calibre/library/catalogs/epub_mobi.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/archive.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/archive.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/meta.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/metadata/meta.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/google.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/google.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/google.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/google.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/worker.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,Using tostring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace tostring with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/amazon.py,1,Using tostring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace tostring with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,Using tostring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace tostring with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/identify.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/edelweiss.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/metadata/sources/edelweiss.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/html/input.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/ebooks/html/input.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/ebooks/conversion/config.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/config.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/cli.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/ebooks/conversion/plumber.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/plugins/rtf_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/snb_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/txt_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/txt_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/txt_input.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/plugins/epub_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/epub_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/epub_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/epub_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/docx_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/lrf_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/htmlz_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/oeb_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/pdf_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/pdf_output.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/conversion/plugins/pdf_output.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/conversion/plugins/chm_input.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/chm_input.py,1,Using BODY to parse untrusted XML data is known to be vulnerable to XML attacks. Replace BODY with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/fb2_input.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/mobi_input.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/html_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/html_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/conversion/plugins/html_output.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/oeb/polish/container.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/polish/container.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/polish/container.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/transforms/flatcss.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/oeb/transforms/flatcss.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/transforms/structure.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/oeb/iterator/book.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/oeb/iterator/book.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/oeb/iterator/book.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/txt/processor.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/txt/processor.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/mobi/tweak.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/mobi/reader/mobi8.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/ebooks/mobi/reader/mobi8.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,Consider possible security implications associated with pickle module.
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/worker.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/pool.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/utils/ipc/pool.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/pool.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/pool.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/simple_worker.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/simple_worker.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/utils/ipc/simple_worker.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/utils/ipc/simple_worker.py,1,"Try, Except, Pass detected."
+src/calibre/utils/fonts/win_fonts.py,1,"Try, Except, Pass detected."
+src/calibre/utils/open_with/osx.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/utils/open_with/osx.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/utils/open_with/osx.py,1,Starting a process with a partial executable path
+src/calibre/utils/open_with/osx.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/web/feeds/news.py,1,Using document_fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace document_fromstring with the equivalent defusedxml package.
+src/calibre/web/feeds/news.py,1,"Try, Except, Pass detected."
+src/calibre/web/feeds/news.py,1,Using tostring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace tostring with the equivalent defusedxml package.
+src/calibre/srv/books.py,1,"Try, Except, Continue detected."
+src/calibre/srv/books.py,1,"Try, Except, Continue detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/srv/render_book.py,1,Using Comment to parse untrusted XML data is known to be vulnerable to XML attacks. Replace Comment with the equivalent defusedxml package.
+src/calibre/devices/cli.py,1,"Try, Except, Pass detected."
+src/calibre/devices/cli.py,1,"Try, Except, Continue detected."
+src/calibre/devices/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/devices/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,Starting a process with a partial executable path
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,"Try, Except, Continue detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/customize/conversion.py,1,"Try, Except, Pass detected."
+src/calibre/customize/ui.py,1,"Try, Except, Pass detected."
+src/calibre/customize/ui.py,1,"Try, Except, Pass detected."
+src/calibre/customize/builtins.py,1,"Try, Except, Pass detected."
+src/calibre/customize/builtins.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/customize/builtins.py,1,Starting a process with a partial executable path
+src/calibre/customize/builtins.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/customize/builtins.py,1,Starting a process with a partial executable path
+src/calibre/customize/builtins.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/tools.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/main.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/gui2/main.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/main.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/main.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/gui2/main.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/main.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/gui2/main.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/custom_column_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/custom_column_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/custom_column_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dnd.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dnd.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/auto_add.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/auto_add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/auto_add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ebook_download.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/icon_theme.py,1,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+src/calibre/gui2/__init__.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/gui2/__init__.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/__init__.py,1,Starting a process without a shell.
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/wizard/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/wizard/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/wizard/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/viewer/printing.py,1,Consider possible security implications associated with subprocess module.
+src/calibre/gui2/convert/regex_builder.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/convert/single.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/convert/bulk.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/convert/__init__.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/gui2/convert/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/store/stores/gutenberg_plugin.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/bubok_portugal_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/kobo_plugin.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/baen_webscription_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/mills_boon_uk_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/ebookshoppe_uk_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/weightless_books_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/libri_de_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/beam_ebooks_de_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/swiatebookow_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/woblink_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/bn_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/wolnelektury_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/amazon_fr_plugin.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/amazon_es_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/amazon_es_plugin.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/store/stores/empik_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/manybooks_plugin.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/smashwords_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/smashwords_plugin.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/gui2/store/stores/legimi_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/litres_plugin.py,1,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/litres_plugin.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/store/stores/litres_plugin.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/gui2/store/stores/biblio_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/bubok_publishing_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/nexto_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/amazon_it_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/amazon_it_plugin.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/store/stores/google_books_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/publio_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/ebook_nl_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/chitanka_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/rw2010_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/virtualo_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/store/stores/ebookpoint_plugin.py,1,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.
+src/calibre/gui2/tag_browser/view.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/quickview.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/quickview.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/template_dialog.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/template_dialog.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/preferences/main.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/preferences/main.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/preferences/plugins.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/preferences/metadata_sources.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/convert.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/choose_library.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/edit_metadata.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/edit_metadata.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Continue detected."
+src/calibre/db/backend.py,1,"Try, Except, Continue detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Continue detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/cache.py,1,"Try, Except, Pass detected."
+src/calibre/db/cache.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/db/cache.py,1,"Try, Except, Pass detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/fts/text.py,1,Consider possible security implications associated with subprocess module.
+imgsrc/generate.py,1,Consider possible security implications associated with subprocess module.
+imgsrc/generate.py,1,subprocess call - check for execution of untrusted input.
+imgsrc/generate.py,1,Starting a process with a partial executable path
+imgsrc/generate.py,1,subprocess call - check for execution of untrusted input.

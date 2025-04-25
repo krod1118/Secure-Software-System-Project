@@ -1,0 +1,462 @@
+File Name,Severity Level,Message
+setup/install.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+setup/upload.py,3,"subprocess call with shell=True identified, security issue."
+setup/__init__.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/test_build.py,3,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+src/calibre/ebooks/metadata/sources/google.py,3,Use of weak MD5 hash for security. Consider usedforsecurity=False
+src/calibre/ebooks/metadata/sources/update.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/ebooks/conversion/plugins/epub_input.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/ebooks/oeb/polish/container.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/utils/exim.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/utils/exim.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/srv/books.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/devices/smart_device_app/driver.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+src/calibre/db/cache.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+imgsrc/generate.py,3,Use of weak SHA1 hash for security. Consider usedforsecurity=False
+bypy/init_env.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+bypy/linux/__main__.py,2,Probable insecure usage of temp file/directory.
+setup/install.py,2,Probable insecure usage of temp file/directory.
+setup/install.py,2,Chmod setting a permissive mask 0o755 on file (tdir).
+setup/install.py,2,Chmod setting a permissive mask 0o755 on file (NOT PARSED).
+setup/__init__.py,2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+setup/__init__.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+setup/unix-ci.py,2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+src/calibre/linux.py,2,"Function call with shell=True parameter identified, possible security issue."
+src/calibre/debug.py,2,Use of exec detected.
+src/calibre/debug.py,2,Use of exec detected.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/database2.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/library/catalogs/epub_mobi_builder.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/library/catalogs/epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/library/catalogs/epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/ebooks/metadata/sources/update.py,2,Use of exec detected.
+src/calibre/ebooks/metadata/sources/update.py,2,Use of exec detected.
+src/calibre/ebooks/conversion/plugins/snb_output.py,2,Probable insecure usage of temp file/directory.
+src/calibre/ebooks/conversion/plugins/snb_output.py,2,Probable insecure usage of temp file/directory.
+src/calibre/utils/matcher.py,2,Call to requests without timeout
+src/calibre/utils/config_base.py,2,Use of exec detected.
+src/calibre/utils/config_base.py,2,Use of exec detected.
+src/calibre/utils/ipc/worker.py,2,Use of exec detected.
+src/calibre/utils/ipc/simple_worker.py,2,Use of exec detected.
+src/calibre/devices/__init__.py,2,Probable insecure usage of temp file/directory.
+src/calibre/customize/zipplugin.py,2,Use of exec detected.
+src/calibre/gui2/wizard/__init__.py,2,Possible binding to all interfaces.
+src/calibre/gui2/catalog/catalog_epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/gui2/catalog/catalog_epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/gui2/catalog/catalog_epub_mobi.py,2,Use of possibly insecure function - consider using safer ast.literal_eval.
+src/calibre/gui2/store/loader.py,2,Use of exec detected.
+src/calibre/gui2/preferences/tweaks.py,2,Use of exec detected.
+src/calibre/gui2/preferences/tweaks.py,2,Use of exec detected.
+src/calibre/gui2/actions/device.py,2,Possible binding to all interfaces.
+src/calibre/db/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/schema_upgrades.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/backend.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/backend.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/backend.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/backend.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/backend.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/backend.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/backend.py,2,Possible SQL injection vector through string-based query construction.
+src/calibre/db/tests/fts.py,2,Possible SQL injection vector through string-based query construction.
+bypy/init_env.py,1,Consider possible security implications associated with the subprocess module.
+bypy/init_env.py,1,subprocess call - check for execution of untrusted input.
+bypy/linux/__main__.py,1,Consider possible security implications associated with the subprocess module.
+bypy/linux/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/linux/__main__.py,1,Starting a process with a partial executable path
+bypy/linux/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/windows/__main__.py,1,Consider possible security implications associated with the subprocess module.
+bypy/windows/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/windows/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/windows/__main__.py,1,Consider possible security implications associated with the subprocess module.
+bypy/windows/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Consider possible security implications associated with the subprocess module.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process without a shell.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,Starting a process with a partial executable path
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+bypy/macos/__main__.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,Consider possible security implications associated with the subprocess module.
+setup/install.py,1,Starting a process with a partial executable path
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,Starting a process with a partial executable path
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,Starting a process with a partial executable path
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/install.py,1,subprocess call - check for execution of untrusted input.
+setup/build.py,1,Consider possible security implications associated with the subprocess module.
+setup/build.py,1,subprocess call - check for execution of untrusted input.
+setup/build.py,1,subprocess call - check for execution of untrusted input.
+setup/plugins_mirror.py,1,Consider possible security implications associated with the subprocess module.
+setup/plugins_mirror.py,1,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+setup/plugins_mirror.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+setup/plugins_mirror.py,1,"Try, Except, Pass detected."
+setup/plugins_mirror.py,1,Starting a process with a partial executable path
+setup/plugins_mirror.py,1,subprocess call - check for execution of untrusted input.
+setup/plugins_mirror.py,1,subprocess call - check for execution of untrusted input.
+setup/plugins_mirror.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+setup/plugins_mirror.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+setup/build_environment.py,1,Consider possible security implications associated with the subprocess module.
+setup/build_environment.py,1,subprocess call - check for execution of untrusted input.
+setup/build_environment.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Consider possible security implications associated with the subprocess module.
+setup/upload.py,1,Consider possible security implications associated with the subprocess module.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,Starting a process with a partial executable path
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/upload.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Consider possible security implications associated with the subprocess module.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/installers.py,1,Starting a process with a partial executable path
+setup/installers.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Consider possible security implications associated with the subprocess module.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,Starting a process with a partial executable path
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/__init__.py,1,subprocess call - check for execution of untrusted input.
+setup/unix-ci.py,1,Consider possible security implications associated with the subprocess module.
+setup/unix-ci.py,1,subprocess call - check for execution of untrusted input.
+setup/unix-ci.py,1,Starting a process with a partial executable path
+setup/unix-ci.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/ptempfile.py,1,"Try, Except, Pass detected."
+src/calibre/linux.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/linux.py,1,"Try, Except, Pass detected."
+src/calibre/linux.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/debug.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/debug.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/debug.py,1,"Try, Except, Pass detected."
+src/calibre/constants.py,1,"Try, Except, Pass detected."
+src/calibre/constants.py,1,"Try, Except, Pass detected."
+src/calibre/test_build.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/test_build.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/startup.py,1,"Try, Except, Pass detected."
+src/calibre/startup.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/database2.py,1,"Try, Except, Pass detected."
+src/calibre/library/sqlite.py,1,"Try, Except, Pass detected."
+src/calibre/library/sqlite.py,1,"Try, Except, Pass detected."
+src/calibre/library/sqlite.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi_builder.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi.py,1,"Try, Except, Pass detected."
+src/calibre/library/catalogs/epub_mobi.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/lrf/html/convert_from.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/archive.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/archive.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/meta.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/metadata/meta.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/worker.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/amazon.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/metadata/sources/identify.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/html/input.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/ebooks/html/input.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/ebooks/conversion/config.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/config.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/cli.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/ebooks/conversion/plumber.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/plugins/txt_input.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/conversion/plugins/pdf_output.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/conversion/plugins/pdf_output.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/oeb/polish/container.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/polish/container.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/polish/container.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/transforms/flatcss.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/oeb/iterator/book.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/oeb/iterator/book.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/oeb/iterator/book.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/txt/processor.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/txt/processor.py,1,"Try, Except, Continue detected."
+src/calibre/ebooks/mobi/tweak.py,1,"Try, Except, Pass detected."
+src/calibre/ebooks/mobi/reader/mobi8.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,Consider possible security implications associated with pickle module.
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/config_base.py,1,"Try, Except, Pass detected."
+src/calibre/utils/smartypants.py,1,Possible hardcoded password: ''
+src/calibre/utils/ipc/worker.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/pool.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/utils/ipc/pool.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/pool.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/pool.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/simple_worker.py,1,"Try, Except, Pass detected."
+src/calibre/utils/ipc/simple_worker.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/utils/ipc/simple_worker.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/utils/ipc/simple_worker.py,1,"Try, Except, Pass detected."
+src/calibre/utils/fonts/win_fonts.py,1,"Try, Except, Pass detected."
+src/calibre/utils/open_with/osx.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/utils/open_with/osx.py,1,Starting a process with a partial executable path
+src/calibre/utils/open_with/osx.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/web/feeds/news.py,1,"Try, Except, Pass detected."
+src/calibre/srv/books.py,1,"Try, Except, Continue detected."
+src/calibre/srv/books.py,1,"Try, Except, Continue detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/srv/embedded.py,1,"Try, Except, Pass detected."
+src/calibre/devices/cli.py,1,"Try, Except, Pass detected."
+src/calibre/devices/cli.py,1,"Try, Except, Continue detected."
+src/calibre/devices/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/devices/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,Starting a process with a partial executable path
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,"Try, Except, Continue detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/usbms/device.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,"Try, Except, Pass detected."
+src/calibre/devices/smart_device_app/driver.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/customize/conversion.py,1,"Try, Except, Pass detected."
+src/calibre/customize/ui.py,1,"Try, Except, Pass detected."
+src/calibre/customize/ui.py,1,"Try, Except, Pass detected."
+src/calibre/customize/builtins.py,1,"Try, Except, Pass detected."
+src/calibre/customize/builtins.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/customize/builtins.py,1,Starting a process with a partial executable path
+src/calibre/customize/builtins.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/customize/builtins.py,1,Starting a process with a partial executable path
+src/calibre/customize/builtins.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/device.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/tools.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/main.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/gui2/main.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/main.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/main.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/gui2/main.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/main.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/gui2/main.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/custom_column_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/custom_column_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/custom_column_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dnd.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dnd.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/auto_add.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/auto_add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/auto_add.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ui.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/ebook_download.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/icon_theme.py,1,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+src/calibre/gui2/__init__.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/gui2/__init__.py,1,subprocess call - check for execution of untrusted input.
+src/calibre/gui2/__init__.py,1,Starting a process without a shell.
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/library/views.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/metadata/basic_widgets.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/wizard/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/wizard/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/wizard/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/viewer/printing.py,1,Consider possible security implications associated with the subprocess module.
+src/calibre/gui2/convert/regex_builder.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/convert/single.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/convert/bulk.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/convert/__init__.py,1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+src/calibre/gui2/convert/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/store/stores/amazon_es_plugin.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/store/stores/smashwords_plugin.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/gui2/store/stores/litres_plugin.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/store/stores/litres_plugin.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/gui2/store/stores/amazon_it_plugin.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/tag_browser/view.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/quickview.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/quickview.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/template_dialog.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/dialogs/template_dialog.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/preferences/main.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/preferences/main.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/preferences/plugins.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/preferences/metadata_sources.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/convert.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/choose_library.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/edit_metadata.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/edit_metadata.py,1,"Try, Except, Pass detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Continue detected."
+src/calibre/gui2/actions/__init__.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Continue detected."
+src/calibre/db/backend.py,1,"Try, Except, Continue detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/backend.py,1,"Try, Except, Continue detected."
+src/calibre/db/backend.py,1,"Try, Except, Pass detected."
+src/calibre/db/cache.py,1,"Try, Except, Pass detected."
+src/calibre/db/cache.py,1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+src/calibre/db/cache.py,1,"Try, Except, Pass detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/cache.py,1,"Try, Except, Continue detected."
+src/calibre/db/fts/text.py,1,Consider possible security implications associated with the subprocess module.
+imgsrc/generate.py,1,Consider possible security implications associated with the subprocess module.
+imgsrc/generate.py,1,subprocess call - check for execution of untrusted input.
+imgsrc/generate.py,1,Starting a process with a partial executable path
+imgsrc/generate.py,1,subprocess call - check for execution of untrusted input.

@@ -1,0 +1,27 @@
+Severity Level,Message,Count
+1,Missing function or method docstring,3974
+4,Undefined variable,3075
+1,Line too long,2432
+1,Import outside toplevel,1552
+3,Method,1099
+4,No name,1099
+1,Missing class docstring,934
+3,Attribute,909
+1,Import,769
+3,No exception type,426
+3,Unused argument,386
+4,Instance of,385
+1,Formatting a regular string which could be an f-string,362
+1,Missing module docstring,307
+2,Too many local variables,291
+3,Catching too general exception Exception,291
+2,Too many arguments,291
+2,Too many positional arguments,291
+1,Variable name,271
+4,Unable to import,269
+2,Too many branches,232
+2,"Either all return statements in a function should return an expression, or none of them should.",217
+1,Constant name,207
+3,Redefining built-in,197
+1,Method name,195
+2,Too many statements,188

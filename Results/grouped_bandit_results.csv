@@ -1,0 +1,26 @@
+Severity Level,Message,Count
+3,Use of weak SHA1 hash for security. Consider usedforsecurity=False,10
+3,"subprocess call with shell=True identified, security issue.",5
+3,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,1
+3,Use of weak MD5 hash for security. Consider usedforsecurity=False,1
+2,Possible SQL injection vector through string-based query construction.,33
+2,Use of exec detected.,12
+2,Use of possibly insecure function - consider using safer ast.literal_eval.,8
+2,Probable insecure usage of temp file/directory.,5
+2,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,2
+2,Possible binding to all interfaces.,2
+2,Call to requests without timeout,1
+2,Chmod setting a permissive mask 0o755 on file (NOT PARSED).,1
+2,Chmod setting a permissive mask 0o755 on file (tdir).,1
+2,"Function call with shell=True parameter identified, possible security issue.",1
+1,"Try, Except, Pass detected.",185
+1,subprocess call - check for execution of untrusted input.,86
+1,Starting a process with a partial executable path,32
+1,Consider possible security implications associated with the subprocess module.,29
+1,"Try, Except, Continue detected.",27
+1,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,6
+1,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,6
+1,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",3
+1,Starting a process without a shell.,2
+1,Consider possible security implications associated with pickle module.,1
+1,Possible hardcoded password: '',1
